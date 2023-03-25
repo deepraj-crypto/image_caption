@@ -1,0 +1,48 @@
+[ 2023-03-25 15:17:12,555 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 15:31:48,184 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-25 15:31:48,187 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 15:31:48,187 ] 41 root - INFO - Initializing model
+[ 2023-03-25 15:31:48,628 ] 45 root - INFO - Initializing model completed
+[ 2023-03-25 15:31:48,628 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-25 15:31:48,629 ] 46 root - INFO - Testing the correctness of an example
+[ 2023-03-25 15:31:48,629 ] 54 root - ERROR - Error occurred: name 'test_examples' is not defined
+[ 2023-03-25 15:49:31,805 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 16:03:49,303 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-25 16:03:49,305 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 16:03:49,306 ] 41 root - INFO - Initializing model
+[ 2023-03-25 16:03:49,765 ] 45 root - INFO - Initializing model completed
+[ 2023-03-25 16:03:49,765 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-25 16:03:49,766 ] 46 root - INFO - Testing the correctness of an example
+[ 2023-03-25 16:03:49,766 ] 54 root - ERROR - Error occurred: [Errno 2] No such file or directory: 'foot.jp'
+[ 2023-03-25 16:05:42,898 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 16:06:45,351 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 16:08:43,597 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 16:24:18,458 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-25 16:24:18,461 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 16:24:18,461 ] 41 root - INFO - Initializing model
+[ 2023-03-25 16:24:18,922 ] 45 root - INFO - Initializing model completed
+[ 2023-03-25 16:24:18,922 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-25 16:24:18,922 ] 30 root - INFO - Testing the correctness of an example
+[ 2023-03-25 16:24:19,568 ] 94 root - INFO - Captioning images
+[ 2023-03-25 16:24:19,584 ] 25 root - INFO - Initializing encoder using resnet
+[ 2023-03-25 16:24:20,770 ] 30 root - ERROR - Error occurred: mat1 and mat2 shapes cannot be multiplied (14336x14 and 1024x399)
+[ 2023-03-25 16:24:20,771 ] 113 root - ERROR - Error occurred: name 'sys' is not defined
+[ 2023-03-25 16:24:20,771 ] 41 root - ERROR - Error occurred: name 'sys' is not defined
+[ 2023-03-25 16:30:26,225 ] 47 root - INFO - building vocabulary
+[ 2023-03-25 16:44:52,723 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-25 16:44:52,726 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 16:44:52,726 ] 41 root - INFO - Initializing model
+[ 2023-03-25 16:44:52,726 ] 47 root - ERROR - Error occurred: name 'models' is not defined
+[ 2023-03-25 16:50:58,715 ] 19 root - INFO - building vocabulary
+[ 2023-03-25 17:05:27,751 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-25 17:05:27,754 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 17:05:27,755 ] 41 root - INFO - Initializing model
+[ 2023-03-25 17:05:28,181 ] 45 root - INFO - Initializing model completed
+[ 2023-03-25 17:05:28,181 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-25 17:05:28,196 ] 30 root - INFO - Testing the correctness of an example
+[ 2023-03-25 17:05:28,212 ] 28 root - INFO - Captioning images
+[ 2023-03-25 17:05:28,212 ] 17 root - INFO - Initializing encoder using resnet
+[ 2023-03-25 17:05:28,289 ] 22 root - ERROR - Error occurred: mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)
+[ 2023-03-25 17:05:28,290 ] 47 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\2867824441.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]
+[ 2023-03-25 17:05:28,290 ] 41 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3031053703.py] line number [30] error message[Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\2867824441.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]]
+[ 2023-03-25 17:16:02,077 ] 19 root - INFO - building vocabulary

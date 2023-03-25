@@ -1,0 +1,7 @@
+setup.py
+Image_captioning.egg-info/PKG-INFO
+Image_captioning.egg-info/SOURCES.txt
+Image_captioning.egg-info/dependency_links.txt
+Image_captioning.egg-info/requires.txt
+Image_captioning.egg-info/top_level.txt
+src/__init__.py

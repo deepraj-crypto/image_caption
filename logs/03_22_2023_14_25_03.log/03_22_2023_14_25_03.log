@@ -1,0 +1,12 @@
+[ 2023-03-22 14:25:03,912 ] 21 root - INFO - Testing logging file
+[ 2023-03-22 14:29:45,754 ] 29 root - INFO - testing exception
+[ 2023-03-23 10:51:25,008 ] 10 root - INFO - Data ingestion started
+[ 2023-03-23 10:53:02,983 ] 10 root - INFO - Data ingestion started
+[ 2023-03-23 11:00:17,054 ] 10 root - INFO - Data ingestion started
+[ 2023-03-23 11:00:19,992 ] 13 root - INFO - Reading the comments/captions of the images
+[ 2023-03-23 11:00:20,398 ] 18 root - INFO - Ingestion completed
+[ 2023-03-23 11:16:11,449 ] 10 root - INFO - Data ingestion started
+[ 2023-03-23 11:16:11,624 ] 13 root - INFO - Reading the comments/captions of the images
+[ 2023-03-23 11:16:12,016 ] 18 root - INFO - Ingestion completed
+[ 2023-03-23 15:25:59,455 ] 8 root - INFO - Image data ingestion
+[ 2023-03-23 15:26:10,536 ] 14 root - INFO - image ingestion completed

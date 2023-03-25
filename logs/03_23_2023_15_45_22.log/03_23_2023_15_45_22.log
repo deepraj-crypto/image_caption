@@ -1,0 +1,14 @@
+[ 2023-03-23 16:21:43,098 ] 6 root - INFO - data transformation initiated
+[ 2023-03-23 16:26:39,781 ] 6 root - INFO - data transformation initiated
+[ 2023-03-23 16:26:53,505 ] 6 root - INFO - data transformation initiated
+[ 2023-03-23 16:26:54,390 ] 13 root - INFO - Data transformation completed
+[ 2023-03-23 16:48:39,764 ] 6 root - INFO - data transformation initiated
+[ 2023-03-23 16:48:40,615 ] 13 root - INFO - Data transformation completed
+[ 2023-03-23 17:01:13,394 ] 26 root - INFO - Data ingestion started
+[ 2023-03-23 17:01:13,892 ] 29 root - INFO - Reading the comments/captions of the images
+[ 2023-03-23 17:01:14,299 ] 34 root - INFO - Ingestion completed
+[ 2023-03-23 17:03:02,574 ] 26 root - INFO - Data ingestion started
+[ 2023-03-23 17:03:02,763 ] 29 root - INFO - Reading the comments/captions of the images
+[ 2023-03-23 17:03:03,160 ] 34 root - INFO - Ingestion completed
+[ 2023-03-23 17:03:49,772 ] 6 root - INFO - data transformation initiated
+[ 2023-03-23 17:03:50,656 ] 13 root - INFO - Data transformation completed
