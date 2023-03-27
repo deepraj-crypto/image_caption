@@ -17,11 +17,10 @@ from src.components.cnn_to_lstm import CNNtoRNN
 
 def train():
     transform = transforms.Compose([
-        transforms.Resize((256,256)),
-        transforms.CenterCrop((224,224)),
+        transforms.Resize((356, 356)),
+        transforms.RandomCrop((299, 299)),
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                             std=[0.229, 0.224, 0.225])
+        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
     ])
     try:
 
@@ -47,8 +46,8 @@ def train():
     train_CNN = False
 
     # Hyperparameters
-    embed_size = 399
-    hidden_size = 399
+    embed_size = 256
+    hidden_size = 256
     vocab_size = len(dataset.vocab)
     num_layers = 5
     learning_rate = 3e-4
@@ -66,7 +65,7 @@ def train():
 
     try:
         logging.info('Finetuning cnn model')
-        for name, param in model.encoderCNN.resnet.named_parameters():
+        for name, param in model.encoderCNN.inception.named_parameters():
             if "fc.weight" in name or "fc.bias" in name:
                 param.requires_grad = True
             else:
@@ -108,6 +107,56 @@ def train():
             optimizer.zero_grad()
             loss.backward(loss)
             optimizer.step()
+            
+            
+            
+# =============================================================================
+#             
+# def train():
+#     transform = transforms.Compose([
+#         transforms.Resize((356, 356)),
+#         transforms.RandomCrop((299, 299)),
+#         transforms.ToTensor(),
+#     ])
+# 
+#     dataset = datasets.ImageFolder('path/to/training/dataset', transform=transform)
+#     dataloader = torch.utils.data.DataLoader(dataset, batch_size=64, shuffle=True, num_workers=4)
+# 
+#     # Calculate mean and standard deviation of training dataset
+#     mean = torch.zeros(3)
+#     std = torch.zeros(3)
+#     for i, (images, _) in enumerate(dataloader):
+#         batch_samples = images.size(0)
+#         images = images.view(batch_samples, images.size(1), -1)
+#         mean += images.mean(2).sum(0)
+#         std += images.std(2).sum(0)
+#     mean /= len(dataset)
+#     std /= len(dataset)
+# 
+#     # Define transformations with new mean and standard deviation values
+#     transform = transforms.Compose([
+#         transforms.Resize((356, 356)),
+#         transforms.RandomCrop((299, 299)),
+#         transforms.ToTensor(),
+#         transforms.Normalize(mean=mean, std=std),
+#     ])
+# 
+#     try:
+#         train_loader, dataset = get_loader(
+#             base_folder="artifacts/flickr_img",
+#             annotation_file="artifacts/comment.csv",
+#             transform=transform,
+#             num_workers=os.cpu_count(),
+#         )
+#         logging.info('Transforming data completed')
+#     except Exception as e:
+#         logging.error(f'Error occurred: {e}')
+#         raise CustomException(e,sys)
+# 
+#     # rest of the code ...
+# }
+# 
+# =============================================================================
 
 
 if __name__ == "__main__":

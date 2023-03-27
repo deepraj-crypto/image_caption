@@ -1,8 +1,10 @@
 import torch
+import sys
 import torch.nn as nn
 from src.exception import CustomException
 from src.logger import logging
 import statistics
+import torch.nn.functional as F
 import torchvision.models as models
 from dataclasses import dataclass
 
@@ -13,19 +15,29 @@ class EncoderCNN(nn.Module):
 
     def __post_init__(self):
         super().__init__()
-        self.resnet = models.resnet50(pretrained=True)
-        layers_to_keep = -1 if self.train_CNN else 7
-        self.resnet = nn.Sequential(*list(self.resnet.children())[:layers_to_keep])
-        self.linear = nn.Linear(self.resnet[-1][-1].bn2.num_features, self.embed_size)
+        self.inception = models.inception_v3(pretrained=True, aux_logits=True)
+        self.modules = list(self.inception.children())[:-1]  # exclude the last layer
+        self.pool = nn.AdaptiveAvgPool2d((1, 1))
+        self.fc = nn.Linear(2048, self.embed_size)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(0.5)
+        self.bn = nn.BatchNorm1d(embed_size, momentum=0.01)
 
     def forward(self, images):
         try:
-            logging.info('Initializing encoder using resnet')
-            features = self.resnet(images)
-            features = self.dropout(self.relu(self.linear(features.transpose(1, 2)).transpose(1, 2)))
+            logging.info('Initializing encoder using inception')
+            images = F.pad(images, (3, 3, 3, 3), mode='constant', value=0)
+            images = images.unsqueeze(0)
+            with torch.no_grad():
+                features = self.inception(images)
+            features = features.squeeze()
+            features = self.relu(features)
+            features = self.dropout(features)
+            features = self.bn(features)
+            logging.info('Initializing encoder over')
             return features
+            
+            
         except Exception as e:
             logging.error(f'Error occurred: {e}')
             raise CustomException(e,sys)
@@ -66,6 +78,7 @@ class DecoderRNN(nn.Module):
     
 @dataclass
 class CNNtoRNN(nn.Module):
+
     embed_size: int
     hidden_size: int
     vocab_size: int
@@ -76,6 +89,7 @@ class CNNtoRNN(nn.Module):
         self.encoderCNN = EncoderCNN(self.embed_size)
         self.decoderRNN = DecoderRNN(self.embed_size, self.hidden_size, self.vocab_size, self.num_layers)
 
+    # This is for the training purpose
     def forward(self, images, captions):
         try:
             logging.info('Starting overall Forward Propagation...')
@@ -86,7 +100,9 @@ class CNNtoRNN(nn.Module):
         except Exception as e:
             logging.error(f'Error occurred: {e}')
             raise CustomException(e,sys)
-
+            
+    
+    # This is for inference dataset
     def caption_image(self, image, vocabulary, max_length=50):
         result_caption = []
         
@@ -118,4 +134,3 @@ class CNNtoRNN(nn.Module):
         return id(self)
     
     
-
