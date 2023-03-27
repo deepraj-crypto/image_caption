@@ -46,3 +46,139 @@
 [ 2023-03-25 17:05:28,290 ] 47 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\2867824441.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]
 [ 2023-03-25 17:05:28,290 ] 41 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3031053703.py] line number [30] error message[Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\2867824441.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]]
 [ 2023-03-25 17:16:02,077 ] 19 root - INFO - building vocabulary
+[ 2023-03-25 17:30:29,514 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-25 17:30:29,514 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-25 17:30:29,514 ] 41 root - INFO - Initializing model
+[ 2023-03-25 17:30:29,985 ] 45 root - INFO - Initializing model completed
+[ 2023-03-25 17:30:29,985 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-25 17:30:29,985 ] 30 root - INFO - Testing the correctness of an example
+[ 2023-03-25 17:30:30,040 ] 28 root - INFO - Captioning images
+[ 2023-03-25 17:30:30,040 ] 17 root - INFO - Initializing encoder using resnet
+[ 2023-03-25 17:30:30,150 ] 22 root - ERROR - Error occurred: mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)
+[ 2023-03-25 17:30:30,150 ] 47 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]
+[ 2023-03-25 17:30:30,150 ] 41 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3031053703.py] line number [30] error message[Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]]
+[ 2023-03-26 11:52:44,903 ] 19 root - INFO - building vocabulary
+[ 2023-03-26 12:07:37,347 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-26 12:07:37,350 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-26 12:07:37,350 ] 41 root - INFO - Initializing model
+[ 2023-03-26 12:07:37,761 ] 45 root - INFO - Initializing model completed
+[ 2023-03-26 12:07:37,761 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-26 12:07:37,762 ] 30 root - INFO - Testing the correctness of an example
+[ 2023-03-26 12:07:37,781 ] 28 root - INFO - Captioning images
+[ 2023-03-26 12:07:37,782 ] 17 root - INFO - Initializing encoder using resnet
+[ 2023-03-26 12:07:37,854 ] 22 root - ERROR - Error occurred: mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)
+[ 2023-03-26 12:07:37,855 ] 47 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]
+[ 2023-03-26 12:07:37,855 ] 41 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3031053703.py] line number [30] error message[Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x399)]]
+[ 2023-03-26 12:19:54,780 ] 19 root - INFO - building vocabulary
+[ 2023-03-26 12:35:27,868 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-26 12:35:27,871 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-26 12:35:27,871 ] 41 root - INFO - Initializing model
+[ 2023-03-26 12:35:28,278 ] 45 root - INFO - Initializing model completed
+[ 2023-03-26 12:35:28,278 ] 51 root - INFO - Finetuning cnn model
+[ 2023-03-26 12:35:28,279 ] 30 root - INFO - Testing the correctness of an example
+[ 2023-03-26 12:35:28,299 ] 28 root - INFO - Captioning images
+[ 2023-03-26 12:35:28,299 ] 17 root - INFO - Initializing encoder using resnet
+[ 2023-03-26 12:35:28,373 ] 22 root - ERROR - Error occurred: mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x256)
+[ 2023-03-26 12:35:28,373 ] 47 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x256)]
+[ 2023-03-26 12:35:28,373 ] 41 root - ERROR - Error occurred: Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3031053703.py] line number [30] error message[Error occured in python script name [C:\Users\Administrator\AppData\Local\Temp\ipykernel_13664\3291935519.py] line number [19] error message[mat1 and mat2 shapes cannot be multiplied (14336x14 and 256x256)]]
+[ 2023-03-26 12:51:19,699 ] 19 root - INFO - building vocabulary
+[ 2023-03-26 13:06:05,779 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-26 13:06:05,784 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-26 13:06:05,784 ] 41 root - INFO - Initializing model
+[ 2023-03-26 13:06:05,784 ] 47 root - ERROR - Error occurred: The parameter 'aux_logits' expected value True but got False instead.
+[ 2023-03-26 13:09:55,972 ] 19 root - INFO - building vocabulary
+[ 2023-03-26 13:24:43,975 ] 31 root - INFO - completed building vocabulary
+[ 2023-03-26 13:24:43,978 ] 17 root - INFO - Tranforming data completed
+[ 2023-03-26 13:24:43,978 ] 41 root - INFO - Initializing model
+[ 2023-03-26 13:24:47,020 ] 47 root - ERROR - Error occurred: name 'embed_size' is not defined
+[ 2023-03-26 13:54:46,925 ] 19 root - INFO - building vocabulary
+[ 2023-03-26 13:55:46,519 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 13:58:24,498 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 14:12:24,904 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 14:12:24,907 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 14:12:24,907 ] 40 root - INFO - Initializing model
+[ 2023-03-26 14:12:25,176 ] 46 root - ERROR - Error occurred: name 'embed_size' is not defined
+[ 2023-03-26 14:17:12,480 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 14:32:00,903 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 14:32:00,906 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 14:32:00,906 ] 40 root - INFO - Initializing model
+[ 2023-03-26 14:32:01,222 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 14:32:01,222 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 14:32:01,224 ] 47 root - INFO - Testing the correctness of an example
+[ 2023-03-26 14:32:01,254 ] 99 root - INFO - Captioning images
+[ 2023-03-26 14:32:01,254 ] 25 root - INFO - Initializing encoder using inception
+[ 2023-03-26 14:32:01,900 ] 31 root - ERROR - Error occurred: Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size
+[ 2023-03-26 14:32:01,900 ] 118 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [26] error message[Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size]
+[ 2023-03-26 14:32:01,900 ] 58 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [101] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [26] error message[Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size]]
+[ 2023-03-26 14:39:36,559 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 14:53:40,829 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 14:53:40,831 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 14:53:40,831 ] 40 root - INFO - Initializing model
+[ 2023-03-26 14:53:41,145 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 14:53:41,145 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 14:53:41,147 ] 47 root - INFO - Testing the correctness of an example
+[ 2023-03-26 14:53:41,167 ] 100 root - INFO - Captioning images
+[ 2023-03-26 14:53:41,167 ] 25 root - INFO - Initializing encoder using inception
+[ 2023-03-26 14:53:41,167 ] 32 root - ERROR - Error occurred: name 'F' is not defined
+[ 2023-03-26 14:53:41,167 ] 119 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [26] error message[name 'F' is not defined]
+[ 2023-03-26 14:53:41,167 ] 58 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [102] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [26] error message[name 'F' is not defined]]
+[ 2023-03-26 14:58:06,675 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 15:12:34,035 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 15:12:34,037 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 15:12:34,037 ] 40 root - INFO - Initializing model
+[ 2023-03-26 15:12:34,487 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 15:12:34,487 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 15:12:34,490 ] 47 root - INFO - Testing the correctness of an example
+[ 2023-03-26 15:12:34,514 ] 101 root - INFO - Captioning images
+[ 2023-03-26 15:12:34,514 ] 26 root - INFO - Initializing encoder using inception
+[ 2023-03-26 15:12:34,678 ] 33 root - ERROR - Error occurred: Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size
+[ 2023-03-26 15:12:34,679 ] 120 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [28] error message[Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size]
+[ 2023-03-26 15:12:34,679 ] 58 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [103] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [28] error message[Calculated padded input size per channel: (3 x 3). Kernel size: (5 x 5). Kernel size can't be greater than actual input size]]
+[ 2023-03-26 15:16:44,642 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 15:32:40,115 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 15:32:40,118 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 15:32:40,118 ] 40 root - INFO - Initializing model
+[ 2023-03-26 15:32:40,436 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 15:32:40,436 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 15:32:40,438 ] 46 root - INFO - Testing the correctness of an example
+[ 2023-03-26 15:32:40,580 ] 101 root - INFO - Captioning images
+[ 2023-03-26 15:32:40,581 ] 26 root - INFO - Initializing encoder using inception
+[ 2023-03-26 15:32:40,695 ] 33 root - ERROR - Error occurred: Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])
+[ 2023-03-26 15:32:40,696 ] 120 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [28] error message[Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])]
+[ 2023-03-26 15:32:40,696 ] 57 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [103] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [28] error message[Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])]]
+[ 2023-03-26 15:43:39,308 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 15:57:54,680 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 15:57:54,683 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 15:57:54,683 ] 40 root - INFO - Initializing model
+[ 2023-03-26 15:57:54,952 ] 46 root - ERROR - Error occurred: 'Sequential' object has no attribute 'AuxLogits'
+[ 2023-03-26 16:03:03,508 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 16:17:10,130 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 16:17:10,130 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 16:17:10,130 ] 40 root - INFO - Initializing model
+[ 2023-03-26 16:17:10,130 ] 46 root - ERROR - Error occurred: The parameter 'aux_logits' expected value True but got False instead.
+[ 2023-03-26 16:18:35,967 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 16:34:19,118 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 16:34:19,122 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 16:34:19,122 ] 40 root - INFO - Initializing model
+[ 2023-03-26 16:34:19,509 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 16:34:19,509 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 16:34:19,511 ] 46 root - INFO - Testing the correctness of an example
+[ 2023-03-26 16:34:19,539 ] 107 root - INFO - Captioning images
+[ 2023-03-26 16:34:19,539 ] 27 root - INFO - Initializing encoder using inception
+[ 2023-03-26 16:34:19,696 ] 39 root - ERROR - Error occurred: Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])
+[ 2023-03-26 16:34:19,696 ] 126 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [30] error message[Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])]
+[ 2023-03-26 16:34:19,696 ] 57 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [109] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [30] error message[Expected more than 1 value per channel when training, got input size torch.Size([1, 768, 1, 1])]]
+[ 2023-03-26 16:47:27,614 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 17:02:26,487 ] 59 root - INFO - completed building vocabulary
+[ 2023-03-26 17:02:26,489 ] 16 root - INFO - Tranforming data completed
+[ 2023-03-26 17:02:26,490 ] 40 root - INFO - Initializing model
+[ 2023-03-26 17:02:26,847 ] 44 root - INFO - Initializing model completed
+[ 2023-03-26 17:02:26,848 ] 50 root - INFO - Finetuning cnn model
+[ 2023-03-26 17:02:26,851 ] 46 root - INFO - Testing the correctness of an example
+[ 2023-03-26 17:02:26,877 ] 108 root - INFO - Captioning images
+[ 2023-03-26 17:02:26,877 ] 27 root - INFO - Initializing encoder using inception
+[ 2023-03-26 17:02:26,941 ] 40 root - ERROR - Error occurred: index 1 is out of bounds for dimension 1 with size 1
+[ 2023-03-26 17:02:26,942 ] 127 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [31] error message[index 1 is out of bounds for dimension 1 with size 1]
+[ 2023-03-26 17:02:26,942 ] 57 root - ERROR - Error occurred: Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [110] error message[Error occured in python script name [E:\Softwares\deepraj\image captioning\src\components\cnn_to_lstm.py] line number [31] error message[index 1 is out of bounds for dimension 1 with size 1]]
+[ 2023-03-26 17:06:36,760 ] 47 root - INFO - building vocabulary
+[ 2023-03-26 17:11:01,964 ] 47 root - INFO - building vocabulary
